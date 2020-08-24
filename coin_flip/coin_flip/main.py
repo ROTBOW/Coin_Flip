@@ -1,5 +1,6 @@
 ### flips numbers of coins as asked then returns the amount of each. ###
 import random
+import tkinter as tk
 
 def flip():
     amounts =[]
@@ -16,3 +17,5 @@ def flip():
     print('%s Tails flipped' % amounts.count('tails'))  
 
 flip()
+
+# GUI
